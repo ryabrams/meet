@@ -1,0 +1,10 @@
+# OS generated files #
+######################
+.DS_Store         # macOS folder metadata files
+Thumbs.db         # Windows thumbnail cache files
+
+# VS Code and Codespaces files #
+##############################
+.vscode/           # VS Code configuration and workspace settings
+*.code-workspace    # VS Code workspace files (if you use them)
+storage.json      # Might appear in .vscode/ -  state storage
