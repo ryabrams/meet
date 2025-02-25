@@ -1,0 +1,39 @@
+/* styles.css */
+
+/* Base Styles (applied to both pages) */
+body {
+    font-family: sans-serif;
+    margin: 0; /* Reset default body margin */
+}
+
+/* Styling for centered content (Flexbox approach - for both pages) */
+.centered-content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height for vertical centering */
+}
+
+/* Scheduling Page Specific Styles */
+#tidycal-embed-container { /* Note: While this ID isn't directly used in index.html anymore, it's harmless to keep or could be removed */
+    width: 100%;
+    max-width: 700px; /* Adjust as needed */
+    padding: 20px;
+}
+
+/* Thank You Page Specific Styles */
+#thank-you-container {
+    text-align: center; /* Center text content */
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    padding: 30px;
+}
+
+#thank-you-container h1 {
+    margin-bottom: 20px;
+}
+
+#thank-you-container p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
