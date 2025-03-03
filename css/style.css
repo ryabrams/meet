@@ -27,13 +27,18 @@ body {
     width: 100%;
     max-width: 600px; /* Adjust as needed */
     padding: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #thank-you-container h1 {
     margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 #thank-you-container p {
     line-height: 1.6;
     margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
