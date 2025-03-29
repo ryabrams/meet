@@ -65,8 +65,12 @@ body {
     cursor: pointer;
     margin-top: 20px;
     transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .rounded-button:hover {
     background-color: #0056b3;
+    color: white;
+    text-decoration: none;
 }
